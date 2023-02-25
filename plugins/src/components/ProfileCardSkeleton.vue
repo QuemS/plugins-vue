@@ -23,16 +23,13 @@ export default {
 }
 @keyframes pulse-bg {
   0% {
-    background-color: #dad0d0;
-    background-position: right;
+    background-color: #e6e6e6;
   }
   50% {
-    background-color: #9e9797;
-    background-position: left;
+    background-color: #b3b2b2;
   }
   100% {
-    background-color: #dad0d0;
-    background-position: right;
+    background-color: #e6e6e6;
   }
 }
 
