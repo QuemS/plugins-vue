@@ -1,13 +1,18 @@
 <template>
-  <card-user-sceleton />
+  <div>
+    <card-user-sceleton />
+    <v-loader />
+  </div>
 </template>
 
 <script>
 import cardUserSceleton from './components/cardUserSceleton.vue'
+import VLoader from './components/VLoader.vue'
 
 export default {
   components: {
-    cardUserSceleton
+    cardUserSceleton,
+    VLoader
   }
 }
 </script>
